@@ -16,9 +16,6 @@ idea of how a real Web server works. Use for instructional purposes only.
 The code compiles and runs cleanly using gcc 2.95.3 
 on a Linux 2.2.20 kernel.
 
-To install Tiny:
-   Type "tar xvf tiny.tar" in a clean directory. 
-
 To run Tiny:
    Run "tiny <port>" on the server machine, 
 	e.g., "tiny 8000".
@@ -27,11 +24,10 @@ To run Tiny:
 	dynamic content: http://<host>:8000/cgi-bin/adder?1&2
 
 Files:
-  tiny.tar		Archive of everything in this directory
   tiny.c		The Tiny server
   Makefile		Makefile for tiny.c
   home.html		Test HTML page
-  godzilla.gif		Image embedded in home.html
+  faye.jpg		Image embedded in home.html
   README		This file	
   cgi-bin/adder.c	CGI program that adds two numbers
   cgi-bin/Makefile	Makefile for adder.c
