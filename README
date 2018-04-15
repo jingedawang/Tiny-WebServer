@@ -32,3 +32,19 @@ Files:
   cgi-bin/adder.c	CGI program that adds two numbers
   cgi-bin/Makefile	Makefile for adder.c
 
+## Usage
+Compile
+```
+make
+chmod +x tiny
+chmod +x cgi-bin/adder
+```
+Run server
+```
+./tiny 8000
+```
+Open the browser
+http://localhost:8000
+http://localhost:8000/cgi-bin/adder?1&2
+
+More information in [《用C语言制作Web服务器》](https://www.jianshu.com/p/dd580395bf11)
